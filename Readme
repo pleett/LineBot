@@ -1,0 +1,13 @@
+Runing 2 command Line
+
+- First
+ngrok http 8000 
+** to get url add chand the webhook in Line Develop
+
+- Second 
+set FLASK_APP=app.py
+set FLASK_ENV=development
+flask run --port 8000
+**to run bot
+
+***use MongoDB as database
